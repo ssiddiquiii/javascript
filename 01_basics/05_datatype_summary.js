@@ -38,11 +38,48 @@ const myFunction = function() {
 
 // find type of datatype pre and non pre
 
-console.log(typeof score);
-console.log(typeof isLoggedIn);
-console.log(typeof outSideTemp);
-console.log(typeof userEmail);
-console.log(typeof hero);
-console.log(typeof myObj);
-console.log(typeof myFunction);
+// console.log(typeof score);
+// console.log(typeof isLoggedIn);
+// console.log(typeof outSideTemp);
+// console.log(typeof userEmail);
+// console.log(typeof hero);
+// console.log(typeof myObj);
+// console.log(typeof myFunction);
+
+// ************************************************************
+
+// ================================ Stack and Heap Memory
+
+/*
+Stack memory gives copy of the acutal stored value to variable and it is immutable*
+*/
+
+// Stack (Primitive types)
+let myChannel = "SameedChai"
+let mySecondChannel = myChannel
+mySecondChannel = "SaadChai"
+
+console.log(myChannel);
+console.log(mySecondChannel);
+
+
+/*
+Heap memory gives reference to varibale and it is mutable*
+*/
+
+// Heap (Non-Primitive types)
+
+const myBro = {
+    myName: "Wallah",
+    age: 22
+}
+
+const mySis = myBro
+mySis.myName = "Adnan"
+
+console.log(myBro);
+console.log(mySis);
+
+
+
 
