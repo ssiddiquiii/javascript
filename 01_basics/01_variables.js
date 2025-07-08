@@ -4,9 +4,6 @@ var accountPassword = "1122"
 accountCity = "Karachi"
 let accountState;
 
-{
-
-} // scope
 
 // accountId = 2 // not allowed
 
