@@ -13,4 +13,4 @@ newObject.city = "Dallas"
 
 // Result
 console.log(oldObject)
-console.log(newObject)
+// console.log(newObject)
