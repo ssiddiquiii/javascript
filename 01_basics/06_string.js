@@ -38,16 +38,3 @@ console.log(url.includes('www'));
 
 console.log(gameName.split("-"));
 console.log(typeof gameName);
-
-
-
-
-
-
-
-
-
-
-
-
-
