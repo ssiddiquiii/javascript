@@ -1,19 +1,19 @@
 const myName = "Sameed"
 const repoCount = 50.111
 
-// console.log(name + repoCount + "Value"); // not recommended for now
-// console.log(`My name is ${myName.toUpperCase()} and my repo count is ${repoCount.toFixed(1)}`); // this is string interpolation as ``.
+console.log(name + repoCount + "Value"); // not recommended for now
+console.log(`My name is ${myName.toUpperCase()} and my repo count is ${repoCount.toFixed(1)}`); // this is string interpolation as ``.
 
 
-const gameName = new String("Sameed-Siddiqui-Adnan-Jame")
+const gameName = new Strin ("Sameed-Siddiqui-Adnan-Jame")
 
-// console.log(gameName[1]);
-// console.log(gameName.__proto__); // to see all properties and methods of string with "__proto__"
+console.log(gameName[1]);
+console.log(gameName.__proto__); // to see all properties and methods of string with "__proto__"
 
 console.log(gameName.length);
-// console.log(gameName.charAt(3));
-// console.log(gameName.indexOf("S"));
-// console.log(gameName.toUpperCase());
+console.log(gameName.charAt(3));
+console.log(gameName.indexOf("S"));
+console.log(gameName.toUpperCase());
 
 // console.log(gameName.substring(0, 3));
 // console.log(gameName.slice(0, 3));
@@ -38,3 +38,18 @@ console.log(url.includes('www'));
 
 console.log(gameName.split("-"));
 console.log(typeof gameName);
+
+/*
+String Methods & Property
+length
+toUpperCase()
+toLowerCase()
+replace()
+slice()
+substring()
+includes()
+trim()
+split()
+charAt()
+indexOf()
+*/
