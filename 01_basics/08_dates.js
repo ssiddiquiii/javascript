@@ -15,9 +15,9 @@ let myDate = new Date()
 // console.log(typeof myDate); // object
 
 // let myCreatedDate = new Date(2023, 5, 25)
-// let myCreatedDate = new Date(2023, 5, 25, 8, 30)
+// let myCreatedDate = new Date(2023, 5, 25, 8, 30) // naughty date :)
 let myCreatedDate = new Date("07-14-2023")
-// console.log(myCreatedDate.toLocaleString()); // naughty date :)
+// console.log(myCreatedDate.toLocaleString()); 
 
 let myTimeStemp = Date.now()
 // console.log(Math.floor(myTimeStemp/3600000)); // milisceonds convert into hours => 1 hour = 3600000 ms 
